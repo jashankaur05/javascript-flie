@@ -1,0 +1,25 @@
+.header{
+    background-color:rgb(27, 27, 214);
+    color:white;
+}
+.logo{
+    width:100%;
+    padding:15px;
+
+}
+.link{
+    padding:15px;
+}
+.link li{
+    display:inline-block;
+}
+.link a{
+    text-decoration:none;
+    color:white;
+    padding:15px;
+
+}
+.page1{
+     background-color:rgb(27, 27, 214);
+    color:white;
+}
