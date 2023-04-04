@@ -91,15 +91,38 @@
 // console.log(string)
 
 //4
-a=7
-string=''
-for(i=1;i<=a;i++){
-    for(j=0;j<a-i;j++){
-        string+=' '
+// a=7
+// string=''
+// for(i=1;i<=a;i++){
+//     for(j=0;j<a-i;j++){
+//         string+=' '
+//     }
+//     for(k=0;k<2*i-1;k++){
+//         string+=String.fromCharCode(k+65)
+//     }
+//     string+='\n'
+// }
+// console.log(string)
+
+const person = {
+    name: 'John',
+    age: 30,
+    isStudent: true,
+    hobbies: ['reading', 'traveling'],
+    address: {
+      street: '123 Main St',
+      city: 'Anytown',
+      state: 'CA',
+      zip: '12345'
     }
-    for(k=0;k<2*i-1;k++){
-        string+=String.fromCharCode(k+65)
-    }
-    string+='\n'
-}
-console.log(string)
+  };
+  
+  
+
+  parsed = JSON.parse(person);
+
+  console.log(parsed); // {name: "John", age: 30, isStudent: true, hobbies: Array(2), address: {…}}
+  console.log(parsed.name); // "John"
+  console.log(parsed.hobbies[0]); // "reading"
+  console.log(parsed.address.city); 
+  

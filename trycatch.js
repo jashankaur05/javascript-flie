@@ -20,14 +20,17 @@
 // }
   
 //2 referece error  variable and function has not been defined 
-//console.log(get)
+// console.log(get)
 
 //type error wrong data type 
-// x='hello';
+//  let x='hello';
 // console.log(x.push('world'))
-// num=15
-// console.log(num.split(' '))
-let x=10
- let y=20
- let  z=x
-console.log(x,y,z)
+//  let num=15
+// console.log(num.split('num'))
+// let x=10
+//  let y=20
+//  let  z=x
+// console.log(x,y,z)
+//range error in javascript
+// let arr = new Array(-1)
+// console.log(arr)
